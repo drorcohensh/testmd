@@ -23,7 +23,7 @@ Overall Statistics
                   Kappa : 0.8031         
  Mcnemar's Test P-Value : < 2.2e-16      
 
-Statistics by Class:
+Statistics by Class:  
 
                      | Class: A | Class: B | Class: C | Class: D | Class: E
 -------------------- | -------- | -------- | -------- | -------- | -------- 

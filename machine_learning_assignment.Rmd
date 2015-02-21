@@ -3,13 +3,15 @@ Machine learning assignment
 The assignment was to predict the quality of barbell lifts according to measurements arranged in a test data set, after creating a model based on similar observations arranged in a training data set. I first arranged the data so that variables comprised of NA values are removed. I then divided the data into a training set, including 70% of the data, and a test set, including 30% of the data to be used for evaluating the model.
 The approach for predicting the actions quality was by using a 'Random Forest' classification model. This model was employed on K-fold cross validation set with 5 cross-validations.
 After the model was established I predicted the left aside test set (comprising 30% of the original training data base) to evaluate the out of sample error. 
-The following Confusion Matrix give estimates to the model performance:
-Prediction    A    B    C    D    E
-         A 1555  104   25   19   33
-         B   69  887   76   31  123
-         C    7  113  911  101   44
-         D   43   33   11  800   65
-         E    0    2    3   13  817
+The following Confusion Matrix give estimates to the model performance:  
+
+Prediction  |  A  |  B |   C  |  D |   E |
+---------- | --- | --- | --- | --- | --- |
+         A | 1555 | 104 |  25 |  19 |  33
+         B |  69 | 887 |  76 |  31 | 123
+         C  |  7 | 113 | 911 | 101  | 44
+         D |  43 |  33 |  11 | 800 |  65
+         E  |  0  |  2  |  3 |  13 | 817
 
 Overall Statistics
                                          
